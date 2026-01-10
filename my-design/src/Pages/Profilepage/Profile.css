@@ -1,0 +1,29 @@
+/* Simple profile styles matching project conventions */
+.profile-section{padding:40px 0;background:#fff}
+.profile-card{max-width:1000px;margin:0 auto;display:flex;gap:24px;align-items:flex-start;padding:24px;border-radius:8px}
+.profile-left{width:260px;flex:0 0 260px;text-align:center}
+.avatar{width:120px;height:120px;border-radius:50%;background:#f1f1f1;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;margin:0 auto 12px}
+.name{margin:0;font-size:22px}
+.role{margin:6px 0;color:#666}
+.location{margin:6px 0;color:#888;font-size:14px}
+.contact-list{margin-top:12px;display:flex;flex-direction:column;gap:6px}
+.contact-item{color:#0b71eb;text-decoration:none;font-size:14px}
+
+.profile-right{flex:1}
+.profile-right h2{margin-top:0}
+.bio{color:#333;line-height:1.5}
+.skills{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0;margin:8px 0}
+.skills li{background:#f4f6fb;padding:6px 10px;border-radius:6px;font-size:13px}
+.portfolio-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:12px}
+.thumb{background:#eaeaea;height:180px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#555;cursor:pointer;transition:transform 0.3s ease,box-shadow 0.3s ease}
+.thumb:hover{transform:translateY(-4px);box-shadow:0 8px 16px rgba(0,0,0,0.12)}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.actions{margin-top:16px;display:flex;gap:12px}
+.btn{padding:8px 14px;border-radius:6px;border:1px solid #ccc;background:transparent;cursor:pointer}
+.btn.primary{background:#0b71eb;color:#fff;border-color:#0b71eb}
+
+@media (max-width:780px){
+  .profile-card{flex-direction:column}
+  .profile-left{width:100%}
+  .portfolio-grid{grid-template-columns:repeat(2,1fr)}
+}
