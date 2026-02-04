@@ -439,4 +439,14 @@
     padding: 10px 15px;
     font-size: 0.95rem;
   }
+  .gallery-image:nth-child(3) {
+  transition-delay: 0.22s;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0) rotate(12deg); }
+  50%  { transform: translateY(-10px) rotate(10deg); }
+  100% { transform: translateY(0) rotate(12deg); }
+}
+
 }

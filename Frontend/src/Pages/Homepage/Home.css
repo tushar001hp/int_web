@@ -86,8 +86,8 @@ body{
 }
 
 .btn-primary{
-  background: rgb(67, 196, 228);
-  color: #3bc0fe;
+  background: var(--accent);
+  color: #fff;
   box-shadow: 0 8px 24px rgba(6,22,33,0.08);
 }
 

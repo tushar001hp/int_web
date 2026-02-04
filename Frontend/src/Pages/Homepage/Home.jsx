@@ -36,7 +36,8 @@ function Home() {
             <div className="project-body">
               <h3 className="project-title">Modern Living Room</h3>
               <p className="project-desc">Contemporary design with natural materials.</p>
-              <a href="/projects/modern-living-room" className="btn btn-primary">View Project</a>
+              <a href="/projects/modern-living-room"></a>
+               <a className="btn btn-primary" href="Project">View Project</a>
             </div>
           </div>
           <div className="project-card">
@@ -44,7 +45,8 @@ function Home() {
             <div className="project-body">
               <h3 className="project-title">Office Workspace</h3>
               <p className="project-desc">Productive and inspiring work environment.</p>
-              <a href="/projects/office-workspace" className="btn btn-primary">View Project</a>
+              <a href="/projects/office-workspace"></a>
+                <a className="btn btn-primary" href="Project">View Project</a>
             </div>
           </div>
           <div className="project-card">
@@ -52,7 +54,8 @@ function Home() {
             <div className="project-body">
               <h3 className="project-title">Luxury Bedroom</h3>
               <p className="project-desc">Elegant sanctuary with premium finishes.</p>
-              <a href="/projects/luxury-bedroom" className="btn btn-primary">View Project</a>
+              <a href="/projects/luxury-bedroom"></a>  
+              <a className="btn btn-primary" href="Project">View Project</a>
             </div>
           </div>
         </div>

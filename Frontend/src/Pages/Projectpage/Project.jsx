@@ -62,10 +62,6 @@ function Project() {
 						<strong>3</strong>
 						<span>Bedrooms</span>
 					</div>
-					<div className="stat">
-						<strong>8</strong>
-						<span>Weeks</span>
-					</div>
 				</div>
 
 				<div className="project-actions">
@@ -77,7 +73,7 @@ function Project() {
 					>
 						{saved ? 'Saved ✓' : 'Save'}
 					</button>
-					<a className="btn" href="mailto:hello@studio.example">Contact Designer</a>
+					<a className="btn" href="Contact">Contact Designer</a>
 				</div>
 			</div>
 		</div>

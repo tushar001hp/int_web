@@ -1,4 +1,4 @@
-import { BrowserRouter as Router ,Routes ,Route } from 'react-router-dom'
+import { BrowserRouter,Routes ,Route } from 'react-router-dom'
 import Navbar from './component/Navbar/Navbar.jsx'
 import Footer from './component/Footer/Footer.jsx'
 import Home from './Pages/Homepage/Home.jsx'
@@ -8,7 +8,7 @@ import Contact from './Pages/Contactpage/Contact.jsx'
 import Profile from './Pages/Profilepage/Profile.jsx'
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -18,7 +18,7 @@ const App = () => {
         <Route path='/Profile' element={<Profile />} />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   )
 }
 
