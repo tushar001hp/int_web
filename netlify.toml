@@ -1,0 +1,8 @@
+[build]
+  base = "Frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# Optional: ensure Node is usable on Netlify
+[build.environment]
+  NODE_VERSION = "18"
